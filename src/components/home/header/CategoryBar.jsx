@@ -7,19 +7,34 @@ function CategoryBar() {
     <div className={styles["category-bar__bg"]}>
       <div className="container">
         <div className={styles["category-bar"]}>
-          <button>
-            <MenuIcon />
-            <span>Categories</span>
-            <DownArrow />
-          </button>
-
-          <button>New Arrival</button>
-          <button>Deals</button>
-          <button>Women's</button>
-          <button>Men's</button>
-          <button>Kid's</button>
-          <button>Bags & Luggage</button>
-          <button>Christmas Collection</button>
+          <div>
+            <button>
+              <MenuIcon />
+              <span>Categories</span>
+              <DownArrow />
+            </button>
+          </div>
+          <div>
+            <button>New Arrival</button>
+          </div>
+          <div>
+            <button>Deals</button>
+          </div>
+          <div>
+            <button>Women's</button>
+          </div>
+          <div>
+            <button>Men's</button>
+          </div>
+          <div>
+            <button>Kid's</button>
+          </div>
+          <div>
+            <button>Bags & Luggage</button>
+          </div>
+          <div>
+            <button>Christmas Collection</button>
+          </div>
         </div>
       </div>
     </div>

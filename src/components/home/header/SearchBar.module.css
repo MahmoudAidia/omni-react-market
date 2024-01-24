@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.search-bar__outer:nth-child(2) {
+  cursor: pointer;
+}
 .search-bar {
   width: 50rem;
   display: flex;

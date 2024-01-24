@@ -5,14 +5,17 @@
   display: flex;
   align-items: center;
 }
-.category-bar button {
+.category-bar div {
+  padding: 1.6rem 3.2rem;
+}
+
+.category-bar div button {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 0.8rem;
   color: #fff;
+  cursor: pointer;
   background: none;
   border: none;
-  cursor: pointer;
-  padding: 1.6rem 3.2rem;
 }
