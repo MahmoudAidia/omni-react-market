@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  /* font-family: ; */
+}
+.container {
+  width: 144rem;
+  margin: 0 auto;
+}
+
+/* COLORS */
+:root {
+  --main-color: #912f56;
+  --main-bg-color: #fff;
+  --secondary-bg-color: #f5f5f5;
+}
